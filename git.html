@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+
+    <title>Git</title>
+
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/reveal.css" />
+
+    <!-- Black (default) - White - League - Sky - Beige - Simple
+       Serif - Blood - Night - Moon - Solarized -->
+    <!--<link rel="stylesheet" href="css/theme/black.css" />-->
+    <!--<link rel="stylesheet" href="css/theme/white.css" />-->
+    <!--<link rel="stylesheet" href="css/theme/sky.css"> -->
+    <!--<link rel="stylesheet" href="css/theme/beige.css">-->
+    <!--<link rel="stylesheet" href="css/theme/simple.css" />-->
+    <!-- <link rel="stylesheet" href="css/theme/serif.css"> -->
+    <!-- <link rel="stylesheet" href="css/theme/blood.css"> -->
+    <!-- <link rel="stylesheet" href="css/theme/night.css"> -->
+    <!-- <link rel="stylesheet" href="css/theme/moon.css"> -->
+    <!-- <link rel="stylesheet" href="css/theme/solarized.css"> -->
+     <link rel="stylesheet" href="css/theme/league.css">
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/monokai.css" />
+
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement("link");
+      link.rel = "stylesheet";
+      link.type = "text/css";
+      link.href = window.location.search.match(/print-pdf/gi)
+        ? "css/print/pdf.css"
+        : "css/print/paper.css";
+      document.getElementsByTagName("head")[0].appendChild(link);
+    </script>
+    <!-- stylesheet ! -->
+    <link rel="stylesheet" href="/css/tdd.css" />
+
+    <style>
+      .leftBottom {
+        position: fixed;
+        right: 2rem;
+        bottom: 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <!--  Python !! -->
+        <section>
+          <!--<h1> Git</h1>-->
+          <div>
+            <!--<img-->
+            <!--class="fragment fade-top"-->
+            <!--data-src="https://snipcart.com/media/10182/git-based-content-workflow-github.jpg"-->
+            <!--/>-->
+            <iframe
+              src="https://giphy.com/embed/12B39IawiNS7QI"
+              width="800"
+              height="450"
+              frameBorder="0"
+              class="giphy-embed"
+            ></iframe>
+            <p>
+              <small
+                >Presented by
+                <a
+                  class="anim_background"
+                  href="http://github.com/AmirAhmadzadeh"
+                  >AmirAhmadzadeh</a
+                ></small
+              >
+            </p>
+          </div>
+        </section>
+        <!--  -->
+        <section>
+          <h3>Welcome !!</h3>
+          <!--<img-->
+          <!--data-src="https://cdn.lynda.com/courses/100222-636613768357279215_338x600_thumb.jpg"-->
+          <!--/>-->
+
+          <img
+            data-src="https://stackify.com/wp-content/uploads/2017/05/git_checkout-min-1024x512.jpg"
+          />
+            <h4>Complete Introduction</h4>
+        </section>
+
+        <!--
+         What is Programming !!!
+        -->
+        <section>
+          <section>Let me Tell you a story ...</section>
+          <section>
+            <img
+              data-src="./images/presentation-2.png"
+              width="900px"
+              height="300px"
+            />
+          </section>
+          <section>
+            <img
+              data-src="./images/presentation-1.png"
+              width="900px"
+              height="300px"
+            />
+          </section>
+
+          <section>
+            <iframe
+              src="https://giphy.com/embed/li0dswKqIZNpm"
+              width="480"
+              height="360"
+              frameBorder="0"
+              class="giphy-embed"
+              allowFullScreen
+            ></iframe>
+          </section>
+          <section>
+            <iframe
+              src="https://giphy.com/embed/fxIYkvKF6puNO"
+              width="900"
+              height="500"
+              frameBorder="0"
+              class="giphy-embed"
+              allowFullScreen
+            ></iframe>
+          </section>
+
+          <section>
+            <iframe
+              src="https://giphy.com/embed/PSxPL6jjDnpmM"
+              width="900"
+              height="500"
+              frameBorder="0"
+              class="giphy-embed"
+              allowFullScreen
+            ></iframe>
+          </section>
+
+          <section>
+            <iframe
+              src="https://giphy.com/embed/IdH3A9YfEql9K"
+              width="900"
+              height="500"
+              frameBorder="0"
+              class="giphy-embed"
+              allowFullScreen
+            ></iframe>
+          </section>
+
+          <section>
+            <iframe
+              src="https://giphy.com/embed/Dc1w8y69enroY"
+              width="900"
+              height="500"
+              frameBorder="0"
+              class="giphy-embed"
+              allowFullScreen
+            ></iframe>
+          </section>
+
+          <section>
+            <iframe
+              src="https://giphy.com/embed/Dc1w8y69enroY"
+              width="900"
+              height="500"
+              frameBorder="0"
+              class="giphy-embed"
+              allowFullScreen
+            ></iframe>
+          </section>
+        </section>
+
+        <!-- data types  -->
+        <section>
+          <!--<section>-->
+          <!--<h1>-->
+          <!--Result-->
+          <!--</h1>-->
+          <!--</section>-->
+          <section>
+            <section>
+              <h2>Team work</h2>
+              <p>
+                <span
+                  style="display: inline-block;"
+                  class="fragment fade-right"
+                >
+                  if
+                </span>
+                <span style="display: inline-block;" class="fragment fade-up">
+                  you
+                </span>
+                <span
+                  style="display: inline-block;"
+                  class="fragment fade-right"
+                >
+                  want</span
+                >
+                <span
+                  style="display: inline-block;"
+                  class="fragment fade-right"
+                >
+                  success
+                </span>
+                <span
+                  style="display: inline-block;"
+                  class="fragment fade-right"
+                >
+                  be
+                </span>
+                <span style="display: inline-block;" class="fragment fade-down">
+                  a
+                </span>
+                <span style="display: inline-block;" class="fragment fade-left">
+                  good
+                </span>
+                <span
+                  style="display: inline-block;"
+                  class="fragment fade-right"
+                >
+                  team</span
+                >
+                <span style="display: inline-block;" class="fragment fade-down">
+                  worker</span
+                >
+              </p>
+
+              <p class="fragment fade-in-then-out">Now you have</p>
+              <section class="fragment fade-in-then-out">
+                <iframe
+                  src="https://giphy.com/embed/Q81NcsY6YxK7jxnr4v"
+                  width="480"
+                  height="350"
+                  frameBorder="0"
+                  class="giphy-embed"
+                  allowFullScreen
+                ></iframe>
+              </section>
+            </section>
+          </section>
+        </section>
+
+        <!--  numbers int float  -->
+        <section>
+          <section>
+            <h2>
+              how do team work ?
+            </h2>
+          </section>
+
+          <section>
+            <h3>large enterprise project</h3>
+          </section>
+
+          <section>
+            <h3>project structure</h3>
+            <img data-src="http://i.stack.imgur.com/bnCN5.gif" />
+          </section>
+
+          <section>
+            <h3>developers team</h3>
+          </section>
+
+          <section>
+            <iframe
+              src="https://giphy.com/embed/l2Sq41shhtYuUGaoo"
+              width="480"
+              height="480"
+              frameBorder="0"
+              class="giphy-embed"
+              allowFullScreen
+            ></iframe>
+          </section>
+
+          <section>
+            <p>1.we does not detect the changes</p>
+            <img
+              class="fragment fade-top"
+              data-src="./images/presentation-3.png"
+            />
+          </section>
+
+          <section>
+            <p>2.developers collabrate on projects in all over the world</p>
+            <img
+              class="fragment fade-top"
+              data-src="https://tehranshake.files.wordpress.com/2008/02/iranmap.gif"
+            />
+          </section>
+        </section>
+        <section>
+          <section>
+            <!--<h4>-->
+              <!--Git-->
+            <!--</h4>-->
+            <iframe
+              src="https://giphy.com/embed/10CopumcRWLMYM"
+              width="480"
+              height="361"
+              frameBorder="0"
+              class="giphy-embed"
+              allowFullScreen
+            ></iframe>
+          </section>
+
+          <section>
+            <h3>what is git ?</h3>
+            <p>it's vsc</p>
+            <p>Distributed (Decentralized) version control system</p>
+          </section>
+        </section>
+
+        <!-- Functions  -->
+        <section>
+          <section>
+            <h1>Git Goals</h1>
+            <p class="fragment fade-up">Speed</p>
+            <p class="fragment fade-up">Simply Ecosystem</p>
+            <p class="fragment fade-up">Supports branches</p>
+            <p class="fragment fade-up">
+              Able to handle larges projects like Linux kernel effectively
+            </p>
+          </section>
+        </section>
+
+        <section>
+          <p>
+            Lets try that....
+          </p>
+          <p>github / gitlab</p>
+        </section>
+
+        <section>
+          <h1>Q/A</h1>
+        </section>
+
+        <section>
+          <h1>Good Bue</h1>
+          <iframe
+            src="https://giphy.com/embed/xTiN0ibK77FMYFHVkc"
+            width="480"
+            height="271"
+            frameBorder="0"
+            class="giphy-embed"
+            allowFullScreen
+          ></iframe>
+        </section>
+      </div>
+    </div>
+
+    <script src="./js/reveal.js"></script>
+
+    <script>
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        center: true,
+        hash: true,
+
+        transition: "slide", // none/fade/slide/convex/concave/zoom
+
+        // More info https://github.com/hakimel/reveal.js#dependencies
+        dependencies: [
+          {
+            src: "plugin/markdown/marked.js",
+            condition: function () {
+              return !!document.querySelector("[data-markdown]");
+            },
+          },
+          {
+            src: "plugin/markdown/markdown.js",
+            condition: function () {
+              return !!document.querySelector("[data-markdown]");
+            },
+          },
+          { src: "plugin/highlight/highlight.js" },
+          { src: "plugin/search/search.js", async: true },
+          { src: "plugin/zoom-js/zoom.js", async: true },
+          { src: "plugin/notes/notes.js", async: true },
+        ],
+      });
+    </script>
+  </body>
+</html>
+

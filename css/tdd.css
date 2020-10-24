@@ -1,0 +1,29 @@
+.anim_background {
+  background: #159957;
+  background: -webkit-linear-gradient(to right, #155799, #159957);
+  background: -moz-linear-gradient(to right, #155799, #159957);
+  background: linear-gradient(to right, #155799, #159957);
+  background-clip: text;
+  -moz-background-clip: text;
+  background-position: center;
+  background-size: 200% 200%;
+  animation: animated 2s ease;
+  -moz-animation: animated 2s ease;
+  width: 16rem;
+  height: 3rem;
+  display: inline-block;
+}
+
+@keyframes animated {
+  from {
+    background-size: 200% 200%;
+  }
+
+  50% {
+    background-size: 200% 200%;
+  }
+
+  to {
+    background-size: 200% 200%;
+  }
+}
